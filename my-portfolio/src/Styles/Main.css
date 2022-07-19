@@ -1,0 +1,26 @@
+.main{
+    /* border: 2px solid lightgreen; */
+    /* background-color: lightgreen; */
+    min-height: 100vh;
+    /* display: flex;
+    justify-content:space-around;
+    align-items: center; */
+}
+
+.logo{
+    color: antiquewhite;
+    border: 1px solid wheat;
+    float: left;
+}
+.titleSaludo{
+    /* border: 2px solid burlywood; */
+    margin: 0;
+    text-align:left;
+    margin-bottom: 0.5em;
+    font: size 10em;
+}
+.titleStack{
+    /* border: 2px solid burlywood; */
+    margin: 0;
+    text-align:left;
+}
