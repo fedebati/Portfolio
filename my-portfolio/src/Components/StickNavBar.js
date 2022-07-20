@@ -1,10 +1,10 @@
 import '../Styles/StickNavBar.css'
-
+import logo from '../images/logoRedondoFondoBlack.gif'
 function StickNavBar() { 
 
     return (
     <div className='stickNavBar'>
-        <h2 className='logo'>logo</h2>
+            <img src={logo} alt='logo' className='logo'/>
         <ul className='listBar'>
             <li>Home</li>
             <li>Contact</li>

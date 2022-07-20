@@ -1,18 +1,24 @@
 import "../Styles/Main.css"
 import Bubble from './Bubble.js'
+import StickNavBar from "./StickNavBar";
 
 function Main() {
     return(
-        <main className="main">
-        <span className='logo'>
-            <h1 className='titleSaludo'>HI,</h1>
-            <h2 className='titleSaludo'>I'm <strong>Federico Batistella</strong></h2>
-            <h4 className='titleStack'>Salesforce Developer</h4>
-            <h4 className='titleStack'>Full Stack Web</h4>
-            <p>Thank you for visiting me, welcome to my Portfolio.</p>
-        </span>
+        <div className="main">
+        <StickNavBar/>
+        <div className='title'>
+            <div className='divTitle'>
+                <h2 className="h2Title">HI,</h2>
+                <h2 className="h2Title">I'm <strong>Federico Batistella</strong></h2>
+            </div>
+            <div className='divStack'>
+                <h4 className="h4Title" >Salesforce Developer</h4>
+                <h4 className="h4Title">Full Stack Web</h4>
+            </div>
+            <p className="saludo">Thank you for visiting me, welcome to my Portfolio.</p>
+        </div>
         <Bubble/>
-        </main>
+        </div>
     )
 }
 
