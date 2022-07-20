@@ -1,7 +1,7 @@
 .blob{
     overflow: hidden;
-    width: 16rem;
-    height: 16rem;
+    width: 30em;
+    height: 20em;
     border-radius: 42% 56% 72% 28% / 42% 40% 56% 40%;
     background-color: ;
     box-shadow: 5px 5px 10px 1px;
@@ -11,7 +11,7 @@
     background-color: rgba(0, 238, 255, 0.13);
     border-top: 1px solid rgb(0, 222, 252);
     border-left: 1px solid rgb(0, 222, 252) ;
-    margin-left: 45vw;
+    margin-left: 35vw;
 }
 
 
@@ -37,3 +37,31 @@
     margin: auto;
     /* border: 2px solid rebeccapurple; */
 }
+
+.burger{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.burger .line{
+    display: block;
+    width: 6em;
+    height: 1em;
+    background-color: #040442;
+    margin-block: 1em;
+    border-radius: 1em;
+    /* transition: transform .5s; */
+}
+
+/* .burger.active .line:nth-child(1){
+    transform: translate(13px);
+    rotate:45deg;
+}
+.burger.active .line:nth-child(2){
+    opacity: 0;
+}
+.burger.active .line:nth-child(3){
+    transform: translate(-13px);
+    rotate:-45deg;
+} */

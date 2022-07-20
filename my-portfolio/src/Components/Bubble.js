@@ -1,11 +1,22 @@
 import '../Styles/Bubble.css'
 
 function Bubble() {
+
+    // const burgerMenu = document.querySelector('.burger');
+    // console.log(burgerMenu);
+    // const menuIsActive = () => { 
+    //     burgerMenu.classList.toggle('active');
+    // }
+    // burgerMenu.addEventListener('click', menuIsActive);
     
     return (
         
         <div className="blob">
-            <h2 className='titlebubble'>Bubble</h2>
+            <button type='button' className='burger'>
+            <span className='line'></span>
+            <span className='line'></span>
+            <span className='line'></span>
+            </button>
         </div>
     
     )
