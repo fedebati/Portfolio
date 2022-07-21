@@ -32,7 +32,7 @@ const ParticleBackground = () => {
             }
           },
           color: {
-            value: "#00a0f7"
+            value: "#03A3DD"
           },
           shape: {
             type: "circle",

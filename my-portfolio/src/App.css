@@ -13,9 +13,10 @@ body{
 }
 
 .App-body {
-  background: rgb(0,212,255);
-  background: radial-gradient(rgba(0,212,255,1) 1%, rgba(9,9,121,1) 50%, rgba(0, 0, 30,1) 80%);
+  /* background: rgb(0,212,255);
+  background: radial-gradient(rgba(0,212,255,1) 1%, rgba(9,9,121,1) 50%, rgba(0, 0, 30,1) 80%); */
   /* min-height: 100vh; */
   /* background-color: blue; */
+  background: linear-gradient(rgba(9,9,121,1), rgba(0, 0, 30,1));
 }
 

@@ -8,11 +8,13 @@
 }
 .divTitle{
     margin-left: 2em;
+    margin-top: 1em;
 }
 .divTitle .h2Title{
     font-size: 5em;
     margin: 0;
-    font-family:  FreeMono, Chilanka;
+    font-family: Fira Code, FreeMono, Chilanka;
+    
 }
 
 .divTitle .h2Title{
@@ -20,7 +22,6 @@
     background-size: 200% auto;
     color: #000;
     background-clip: text;
-    /* text-fill-color:transparent; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate 4s linear infinite;
@@ -37,12 +38,12 @@
 .divStack .h4Title{
     font-size: 2em; 
     margin: 0;
-    font-family:   FreeMono, Chilanka;
+    font-family:  Fira Code,  FreeMono, Chilanka;
 }
 
 .saludo{
-    margin-left: 1.3em;
-    font-size: 1.5em;
-    margin-top: 0.1em;
-    font-family:   FreeMono, Chilanka;
+    margin-left: 2em;
+    font-size: 1em;
+    margin-top: 1em;
+    font-family:  Fira Code,  FreeMono, Chilanka;
 }
