@@ -1,10 +1,12 @@
 import "../Styles/Main.css"
 import Bubble from './Bubble.js'
 import StickNavBar from "./StickNavBar";
+import Particulas from 'react-tsparticles';
 
 function Main() {
     return(
         <div className="main">
+        
         <StickNavBar/>
         <div className='title'>
             <div className='divTitle'>
@@ -13,11 +15,12 @@ function Main() {
             </div>
             <div className='divStack'>
                 <h4 className="h4Title" >Salesforce Developer</h4>
-                <h4 className="h4Title">Full Stack Web</h4>
+                <h4 className="h4Title">Full Stack Web Developer</h4>
             </div>
             <p className="saludo">Thank you for visiting me, welcome to my Portfolio.</p>
         </div>
         <Bubble/>
+       
         </div>
     )
 }

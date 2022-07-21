@@ -6,8 +6,9 @@ function StickNavBar() {
     <div className='stickNavBar'>
             <img src={logo} alt='logo' className='logo'/>
         <ul className='listBar'>
-            <li>Home</li>
-            <li>Contact</li>
+            <li className='link'>Home</li>
+            <li className='link'>About</li>
+            <li className='link'>Contact</li>
         </ul>
     </div>
     )

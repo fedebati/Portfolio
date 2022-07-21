@@ -12,17 +12,18 @@
 .divTitle .h2Title{
     font-size: 5em;
     margin: 0;
+    font-family:  FreeMono, Chilanka;
 }
 
 .divTitle .h2Title{
-    background: linear-gradient(to right, #fff 20%, aqua 40%, #0552D4 60%, #fff 80%);
+    background: linear-gradient(to right, #fff 20%, aqua 40%, #0552D4 60%, aqua 80%, #fff 100% );
     background-size: 200% auto;
     color: #000;
     background-clip: text;
-    text-fill-color:transparent;
-    /* -webkit-background-clip: text; */
+    /* text-fill-color:transparent; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animate 2s linear infinite;
+    animation: animate 4s linear infinite;
 }
 @keyframes animate{
     to{
@@ -36,8 +37,12 @@
 .divStack .h4Title{
     font-size: 2em; 
     margin: 0;
+    font-family:   FreeMono, Chilanka;
 }
 
 .saludo{
-    margin-left: 2em;
+    margin-left: 1.3em;
+    font-size: 1.5em;
+    margin-top: 0.1em;
+    font-family:   FreeMono, Chilanka;
 }
