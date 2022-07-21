@@ -1,11 +1,13 @@
 import './App.css'
-import Header from "./Components/Header"
+// import Header from "./Components/Header"
 import Main from "./Components/Main"
+import ParticleBackground from './Components/ParticleBackground';
 
 function App() {
   return (
     <div className="App App-body">
-      <Header/>
+      <ParticleBackground/>
+      {/* <Header/> */}
       <Main/>
     </div>
   );

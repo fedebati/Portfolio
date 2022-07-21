@@ -8,7 +8,7 @@
     animation: morph 3.5s linear infinite;
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 238, 255, 0.13);
+    background-color: #03a3dd56;
     border-top: 1px solid rgb(0, 222, 252);
     border-left: 1px solid rgb(0, 222, 252) ;
     margin-left: 35vw;

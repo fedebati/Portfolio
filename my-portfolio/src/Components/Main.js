@@ -1,12 +1,11 @@
 import "../Styles/Main.css"
 import Bubble from './Bubble.js'
 import StickNavBar from "./StickNavBar";
-import Particulas from 'react-tsparticles';
+
 
 function Main() {
     return(
         <div className="main">
-        
         <StickNavBar/>
         <div className='title'>
             <div className='divTitle'>
