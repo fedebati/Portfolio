@@ -1,11 +1,13 @@
 import "../Styles/Main.css"
 import Bubble from './Bubble.js'
+import ParticleBackground from "./ParticleBackground";
 import StickNavBar from "./StickNavBar";
-
 
 function Main() {
     return(
+    
         <div className="main">
+        <ParticleBackground/>
         <StickNavBar/>
         <div className='title'>
             <div className='divTitle'>
@@ -19,7 +21,6 @@ function Main() {
             <p className="saludo">Thank you for visiting me, welcome to my Portfolio.</p>
         </div>
         <Bubble/>
-       
         </div>
     )
 }

@@ -1,18 +1,17 @@
 import '../Styles/Bubble.css'
+import {useState } from 'react';
 
 function Bubble() {
 
-    // const burgerMenu = document.querySelector('.burger');
-    // console.log(burgerMenu);
-    // const menuIsActive = () => { 
-    //     burgerMenu.classList.toggle('active');
-    // }
-    // burgerMenu.addEventListener('click', menuIsActive);
+    const [toggle, setToggle] = useState(true);
+    function fnToggle() { 
+        setToggle(!toggle)
+    };
     
     return (
         
-        <div className="blob">
-            <button type='button' className='burger'>
+        <div className={(toggle ? 'blob' : 'blob active')} onClick={fnToggle}>
+            <button type='button'  className={(toggle? 'burger': 'burger active' )} >
             <span className='line'></span>
             <span className='line'></span>
             <span className='line'></span>
